@@ -44,6 +44,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(window);
     return (
       <div>
         <Header />
@@ -58,8 +59,8 @@ class App extends React.Component {
               this.props.currentUser ? (
                 <Redirect to='/' />
               ) : (
-                <SignInAndSignUpPage />
-              )
+                  <SignInAndSignUpPage />
+                )
             }
           />
         </Switch>
