@@ -13,14 +13,13 @@
     "redux": "4.0.1",
     "redux-logger": "3.0.6",
     "redux-persist": "5.10.0",
-    "reselect": "4.0.0"
+    "reselect": "4.0.0",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "react-scripts": "^3.4.3"
   },
-  "resolutions": {
-   
-  },
+  "resolutions": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
